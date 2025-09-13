@@ -14,7 +14,7 @@ function App() {
   // Fetch products from backend
   const fetchProducts = async () => {
     try {
-      const res = await fetch("https://wing-s-cafe-backend.onrender.com");
+      const res = await fetch("https://wing-s-cafe-backend.onrender.com/products");
       const data = await res.json();
       setProducts(data);
     } catch (err) {
