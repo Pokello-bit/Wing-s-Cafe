@@ -9,7 +9,7 @@ export default function ProductPage() {
   });
 
   const fetchProducts = async () => {
-    const { data } = await axios.get("http://localhost:5000/products");
+    const { data } = await axios.get("https://wing-s-cafe-backend.onrender.com");
     setProducts(data);
   };
 
