@@ -42,4 +42,12 @@
       "last 1 safari version"
     ]
   }
+  {
+  "homepage": "https://<your-github-Pokello-bit>.github.io/<Wing-s-Cafe>",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
+
 }
